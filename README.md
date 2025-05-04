@@ -1,1 +1,1 @@
-# diff_broker_ilink
+# ILink interface component for a diff demo Broker
