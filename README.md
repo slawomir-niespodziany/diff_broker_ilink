@@ -11,10 +11,9 @@ See broker repo for more details.
 
 This is an interface component. It consists only of header files, thus it needs not to be built. However, it shall be installed, so other components, which depend on it, may include those headers.
 
-Below commands can be run from within the component directory to install the component in your local (user-wide, not system-wide) CMake registry.
+Below command can be run from within the component directory to install the component in your local (user-wide, not system-wide) CMake registry.
 ```
 cmake -Bbuild -DCMAKE_EXPORT_PACKAGE_REGISTRY=ON
-cmake --build build
 ```
 
 ## Prerequisites
