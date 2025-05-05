@@ -4,7 +4,7 @@ This repo consists of an interface component *ILink*. It is part of example appl
 *ILink* is further implemented by components which provide functionality of sending a message. 
 See broker repo for more details.
 
-<p align="center"><img src="img/ILink.png" alt="ILink interface"/></p>
+<p align="center"><a href="include/ILink.h"><img src="img/ILink.png" alt="ILink interface"/></a></p>
 
 ## Installation
 *It is recommended to build and run the whole demo app at once, by following the guide in *[broker](https://github.com/slawomir-niespodziany/diff_broker)* repo. If you only want to install this single component, then proceed with this document.*
