@@ -18,7 +18,7 @@ cmake --build build
 ```
 
 ## Prerequisites
-The whole demo is prepared and tested under Ubuntu 22.04 and Ubuntu 24.04. With that being said, you will need to have *cmake* to perform installation of this component. The newest version (*cmake 4.0.1*) is available under the following command.
+The whole demo is prepared and tested under Ubuntu 22.04 and Ubuntu 24.04. With that being said, you shall only need to have *cmake* to perform installation of this component. The newest version (*cmake 4.0.1*) is available under the following command (in Ubuntu).
 ```
 sudo snap install cmake
 ```
