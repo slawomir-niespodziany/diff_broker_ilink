@@ -1,1 +1,24 @@
-# ILink interface component for a diff demo Broker
+# Interface *ILink*
+This repo consists of an interface component *ILink*. It is part of example application *[broker](https://github.com/slawomir-niespodziany/diff_broker)* which demonstrates use of the *[diff](https://github.com/slawomir-niespodziany/diff)* framework. 
+
+*ILink* is further implemented by components which provide functionality of sending a message. 
+See broker repo for more details.
+
+![ILink interface](img/ilink.png "ILink interface")
+
+## Installation
+*It is recommended to build and run the whole demo app at once, by following the guide in *[broker](https://github.com/slawomir-niespodziany/diff_broker)* repo. Follow this guide if you only want to install this single component.*
+
+This is an interface component. It consists only of header files, thus it needs not to be built. However, it shall be installed, so other components, which depend on it, may include those headers.
+
+Below commands can be run from within the component directory to install hte component in your local (user-wide, not system-wide) CMake registry.
+```
+cmake -Bbuild -DCMAKE_EXPORT_PACKAGE_REGISTRY=ON
+cmake --build build
+```
+
+## Prerequisites
+The whole demo is prepared and tested under Ubuntu 22.04 and Ubuntu 24.04. With that being said, you will need to have *cmake* to perform installation of this component. The newest version (*cmake 4.0.1*) is available under the following command.
+```
+sudo snap install cmake
+```
