@@ -1,5 +1,5 @@
 # Interface *ILink*
-This repo consists of an interface component *ILink*. It is part of example application *[broker](https://github.com/slawomir-niespodziany/diff_broker)* which demonstrates use of the *[diff](https://github.com/slawomir-niespodziany/diff)* framework. 
+This repo consists of an interface component *ILink*. It is part of example application *[broker](https://github.com/slawomir-niespodziany/diff_broker)*, which demonstrates use of the *[diff](https://github.com/slawomir-niespodziany/diff)* framework. 
 
 *ILink* is further implemented by components which provide functionality of sending a message. 
 See broker repo for more details.
