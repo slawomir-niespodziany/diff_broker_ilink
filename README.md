@@ -7,7 +7,7 @@ This repo consists of an interface component *ILink*. It is a part of example ap
 <p align="center"><a href="include/ILink.h"><img src="img/ILink.png" alt="ILink interface"/></a></p>
 
 ## Installation
-*ILink* is a header-only component and does not require building. It is used by components that implement or depend on it.
+*ILink* is a header-only component and does not require building. It is used by components that implement or utilize the functionality it defines.
 To make it available to those components, it must be installed in CMake registry - or in any way specific to your build system. 
 
 #### Install by script
