@@ -1,0 +1,7 @@
+@startuml
+
+interface ILink {
++bool send(const std::string &message)
+}
+
+@enduml
